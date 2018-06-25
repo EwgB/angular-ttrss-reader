@@ -7,6 +7,7 @@
 /tmp
 /app/**/*.js
 /app/**/*.js.map
+/out-tsc
 
 # dependencies
 /node_modules
@@ -14,6 +15,12 @@
 
 # IDEs and editors
 /.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
 # misc
 /.sass-cache
@@ -21,6 +28,7 @@
 /coverage/*
 /libpeerconnection.log
 npm-debug.log
+yarn-error.log
 testem.log
 /typings
 
@@ -28,8 +36,9 @@ testem.log
 /e2e/*.js
 /e2e/*.map
 
-#System Files
+# System Files
 .DS_Store
+Thumbs.db
 
 ### VisualStudioCode ###
 .vscode/*
